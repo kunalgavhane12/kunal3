@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:ital,wght@0,100;1,300;1,900&family=Montserrat:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DynaPuff', cursive;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: brown;
+}
+#brand a{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:brown;
+
+}
+
+.sociallogo {
+    height: 40px;
+}
+
+#brand {
+    float: left;
+    margin: 1%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#social {
+    margin-top: 1%;
+    float: right;
+}
+
+#search {
+    height: 400px;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    /* border: 2px solid green; */
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#logo>span {
+    margin-left: 23%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+#Container{
+    /* background-image: url(/img/bglisting.png); */
+    width: 100%;
+    /* height:730vh; */
+    display: inline-block;
+    /* border: 2px solid gold; */
+    
+}
+.content{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+}
+h2{
+    text-align: center ;
+    font-size: 2rem;
+}
+.text{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    
+}
+.wrapper{
+    width: 50%;
+    padding: 10px 30px;
+    height: 100px;
+    margin: 32px auto;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    color: brown;
+    font-weight: bold;
+
+}
+.col1{
+    float: left;
+    display: block;
+    font-size: 20px;
+    height: 100px;
+    width: 50%;
+    margin-left: 20px;
+        
+}
+.col2{
+
+    height: 100px;
+    width: 40%;
+    display: block;
+    font-size: 20px;
+    float: right;
+    
+}
+#mainbox{
+    text-align: center;
+}
+#Appetizers{
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+#Indo-Chinese {
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+#Rice {
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+#Seafood{
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+
+#Indian {
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+#Desserts {
+    display: block;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+
+}
+
+.tilecontainer {
+    width: 30%;
+    height: 180px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    box-shadow: 5px 10px 5px #3b2632;
+}
+
+.tilecomponet1 {
+    width: 50%;
+    height: 180px;
+    float: left;
+}
+
+.tilecomponet1>img {
+    width: 100%;
+    height: 180px;
+
+}
+
+.tilecomponet2 {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.componentheading>a {
+    font-size: 17px;
+    color: brown;
+}
+
+.componentsubheading {
+
+    color: gray;
+    font-size: 14px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    padding: 20px 30px ;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 30px;
+    outline: none;
+}
+.sitting{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.box1{
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+.box1 > img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 10px 5px #3b2632;
+    
+}
+.box2{
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+.box2 > img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 10px 5px #3b2632;
+}
+.box3{
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+.box3 > img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 5px 10px 5px #3b2632;
+}
+
+footer {
+    margin-top: 168%;
+    display: block;
+    padding: 5px;
+    height: 80px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+.footdiv {
+    height: 50px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid white;
+}
+.noborder{
+    border: none;
+}
